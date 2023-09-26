@@ -9,6 +9,8 @@ RUN npm install -g gulp
 RUN npm install -g node-gyp
 RUN npm install -g typescript
 RUN npm install -g nodemon
+RUN npm install -g pnpm
+
 
 RUN mkdir -p /tmp/.cache
 RUN chmod -R 777 /tmp/.cache
