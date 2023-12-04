@@ -2,7 +2,7 @@ FROM node:18.16.0
 
 WORKDIR /app
 
-RUN apt update && apt install -y libc6
+RUN apt update && apt install -y libc6 curl jq
 
 RUN npm install -g npm@9.8.0
 RUN npm install -g gulp
