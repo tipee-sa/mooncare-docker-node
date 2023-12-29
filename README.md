@@ -3,6 +3,8 @@ Docker image of Node for a local development
 
 ## Image content
 
-* Nodejs 18.15.0 (from the base image)
-* Python 3 && Python 2.7
+* Nodejs 20.10.0 (from the base image)
+* NPM 6.14.8 (from the base image)
+* typescript
+* nodemon
 * Gulp
